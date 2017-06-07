@@ -16,3 +16,13 @@ It works as follows:
 The new PDF will be compressed, but expect something like 10 MB per each 100 pages. Just as if you would create a PDF by scanning material.
 
 After you are done, you may consider using an OCR tool to further process the new PDF content ...
+
+# Dependencies
+Apart from PyMuPDF (which does all the PDF work), you need components to
+
+1. take an image of the selected screen area
+2. send page forward your e-book reader
+
+For (1.) you can e.g. use ``Pillow.ImageGrab`` (available on MacOS and Windows). For (2.) you can use `SendKeys` (available on Windows Python 2 only).
+
+`PyAutoGUI` (https://pypi.python.org/pypi/PyAutoGUI/0.9.36) claims to cover both of the above (not verified).
