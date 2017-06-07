@@ -30,7 +30,7 @@ of scraping defined screen ares would suffice as well (pyscreenshot on Linux? No
 
 SendKeys is available on Windows with Python 2.7 only.
 However, any product capable of sending a "PageDown" or a "next page" to your
-E-Book reader would be okay, too. An elegant alternative on WIndows with many
+E-Book reader would be okay, too. An elegant alternative on Windows with many
 more features is AutoIt, which can be invoked via Python's win32 COM interface,
 independantly of the used Python version.
 

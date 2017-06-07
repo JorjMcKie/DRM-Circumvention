@@ -13,7 +13,9 @@ Create a readable PDF copy of any (potentially DRM protected) pageable content
 
 Dependencies:
 -------------
-PyMuPDF v1.11.0+, PIL, SendKeys
+PyMuPDF v1.11.0+, PIL, SendKeys, AutoIt (external tool, separately installed),
+operating system Windows (because of AutoIt).
+Python version 2 (or 3 once the 'raw_input' function is replaced).
 
 License:
 --------
