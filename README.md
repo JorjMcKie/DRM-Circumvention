@@ -11,7 +11,7 @@ It works as follows:
 3. Choose whether you want to actually start the backup process, or to just display an example page.
 4. Use the test page display to adjust the screen region such that the displayed book page is properly covered.
 5. Once the backup process is started, it will automatically flip through the book, making an image of every page, and storing it as a new PDF page.
-6. If end of book is encountered, a new PDF ``ebook.pdf`` will be saved in the script directory. End-of-book condition is recognized as two consecutive pages which are equal down to the pixel level. This test will fails of course, if e.g. there are two blank pages in a row. In such cases, restart the process at the following page again.
+6. If end of book is encountered, a new PDF ``ebook.pdf`` will be saved in the script directory. End-of-book condition is recognized as two consecutive pages which are equal down to the pixel level. This test will fail of course, if e.g. there are two blank pages in a row. In such cases, restart the process at the following page again.
 
 The new PDF will be compressed, but expect something like 10 MB per each 100 pages. Just as if you would create a PDF by scanning some material.
 
