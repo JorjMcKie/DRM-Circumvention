@@ -1,12 +1,12 @@
 # Making PDF Copies of DRM-protected E-Books
-These are actually examples for PyMuPDF scripts - which I do not want to include in the official repository.
+These are actually examples for PyMuPDF scripts - which I do not want to include in that repository.
 
 There exist cool tools to decrypt DRM-protected material, like https://github.com/apprenticeharper/DeDRM_tools.
 
 Just in case they do not help you, here is an alternative.
 It works as follows:
 
-1. Open your e-book application with the book you want to backup
+1. Open your e-book application with the book you want to backup and go to the page from where the copy should start.
 2. Start one of the scripts provided here
 3. Choose whether you want to actually start the backup process, or just display an example page.
 4. Use the test page display to adjust the screen region such that the displayed book page is properly covered.
